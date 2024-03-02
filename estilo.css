@@ -1,0 +1,316 @@
+/* BARRA DE NAVEGACION DE LA PAGINA */
+.menu{
+	background-color:#3c4580;
+	width: 100%;
+	height: 11vh;
+	font-family: sans-serif;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/* LETRA */
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ELEMNTOS*/
+h2{
+   color: #9645FF;
+}
+
+/* FONDE DE LA PAGINA */
+body{
+	background:radial-gradient(circle, #ccc, #9645FF) ;
+	background-position:center ;
+	background-repeat:none ;	
+}
+.icono1{
+	display: flex;
+	font-size: 30px;
+	position: relative;
+	bottom: 30px;
+	left: 450px;
+	z-index: 300;
+}
+.icono2{
+	display: flex;
+	font-size: 30px;
+	position: relative;
+	bottom: 30px;
+	left: 700px;
+	z-index: 200;	
+}
+.icono3{
+	display: flex;
+	font-size: 30px;
+	position: relative;
+	bottom: 30px;
+	left: 670px;
+	z-index: 200;	
+}
+
+
+
+.welcome{
+	padding: 0px;
+	position: absolute;
+	top: 0;
+	
+}
+
+
+.menu,ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	
+}
+.menu,ul,li{
+	display: inline-block;
+	padding: 20px;
+	
+
+}
+
+.menu,ul,li{
+    padding: 50px;
+ 	float: left;
+}
+ul,a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: white;
+    transition:0.3s ;
+    font-weight: bold;
+	position: relative;
+	bottom: 30px;
+
+}
+
+a:hover{
+	cursor:pointer;	
+	color:rgb(255, 0, 0) ;
+}
+
+ul li a img{
+	width:70px ;
+	border-radius:60px ;
+    bottom: 100px;
+    right: 10px;
+    position: relative;
+	border: 4px solid rgb(252, 156, 255);	
+}
+.logo-de-inicio{
+	width:70px ;
+	border-radius:60px ;
+    bottom:60px ;
+    right: 10px;
+    position: relative;
+	margin-top:30px;
+	border: 4px solid rgb(252, 156, 255);	
+}
+
+strong{
+	font-weight: 100;
+	font-size: 60px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	position: relative;	
+}
+
+span{
+   color: rgb(0, 0, 0);
+}
+
+
+.elements,h1{
+       color: white;
+	   position: relative;
+	   font-size:30px ;
+	   top: 30px;	   
+   
+}
+.elementsUl{
+	position: relative;
+	left: 400px;
+}
+.elements2,p{
+	text-align: center;
+	position: relative;
+    top: 50px;
+	right:200px ; 
+	color: white;
+	font-size: 20px;
+
+	
+	
+	
+}
+p{
+	position: relative;
+	bottom: 100px;
+}
+
+.listaDePrecios {
+    position: relative;
+    left: 800px;
+    top: -50px; 
+    text-align: center;
+}
+
+	
+h1{
+	text-align: center;
+	color: #fcfcfc;
+}
+.tituloh1{
+	position: relative;
+	left: 700px;
+}
+.titulofull{
+	position: relative;
+	left: 700px;
+}
+
+h3{
+	position: relative;
+	top: 1000px;
+	font-size: 30px;
+}
+b{
+	color: #000;
+}
+
+.tronco {
+    width: 700px; 
+    height: auto;
+	border: 5px solid #fbff00;
+}
+
+.cuerpo{
+	position: relative;
+	top: -400px;
+	left: 600px;
+}
+
+.headshot{
+	float: right;
+	position: relative;
+	left: 400px;
+	margin-bottom: 20px;
+	border:5px solid #e35204
+
+}
+.headshot2{
+	float: right;
+	position: relative;
+	left: 400px;
+	margin-top: 20px;
+	border:5px solid #e35204
+}
+
+
+.strong1{
+	position: relative;
+	bottom: 30px;
+}
+
+/* IMG WELCOME */
+.galeria {
+	position: relative;
+	width: 650px;
+	height: auto;
+	float: right;
+	opacity: 0.7;
+	top:100px ;
+}
+
+.galeriaGif{
+      position: relative;
+	  width: 300px;
+	  height: 300px;	
+	  right: 800px;
+	  bottom: 300px;
+	  border: 8px outset rgb(0, 0, 0);
+	  border-radius: 50%;
+}
+
+
+.section {
+		float: left;
+		width: 50%; /* o cualquier otro valor para ajustar el tamaño */
+	}	
+
+.section ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.section1 {
+	width: 700px;
+	height: auto;
+	position: relative;
+	top: 500px;
+	right: 150px;	
+}
+
+.section2  {
+    display:block; 
+    width: 700px; 
+	height: auto;
+    margin-top: 10px;
+	border: 5px solid black ;
+	float: left;
+}
+
+.section3 {
+    display:block; 
+    width: 400px; 
+	height: auto;
+    margin-bottom: 10px; 
+    border: 5px solid black ;
+	float: left;
+}
+
+
+
+.faq {
+    position: relative;
+    top: 4800px;
+    right: 400px;
+	columns: calc(90deg);
+}	
+.faq-titulo{
+	position: relative;
+	left: 350px;
+}
+.faq-titulo2{
+	position: relative;
+	left: 40px;
+}
+
+
+.faq-explicacion{
+          position: relative;
+		  left: 350px;
+		  right:70px;
+		 
+		 
+		  		  
+}
+.faq-explicacion2{
+	position: relative;
+	left: 70px;
+	right:100px;
+}
+
+
+
